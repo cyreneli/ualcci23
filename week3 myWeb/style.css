@@ -1,0 +1,48 @@
+body{
+    background:rgb(85, 85, 85);
+}
+
+.description{
+    background-color:rgb(85, 85, 85);
+    color: black;
+    width: 90%;
+    margin: 0;  /* 重置<p>元素的外边距 */
+    padding: 0; /* 重置<p>元素的内边距 */
+}
+
+
+
+.style{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    height: 600px;  
+}
+
+.content {
+    width: 50%;   /* 让它们各自占据容器的一半宽度 */
+    height: 100%; /* 让它们与容器具有相同的高度 */
+    overflow-y: auto; /* 如果内容超出，将其设置为可滚动 */
+    word-wrap: break-word;  /* 当内容超出容器宽度时，强制换行 */
+    white-space: normal; 
+    margin-left: 10px;  /* 从左边添加10px的间隔 */
+}
+
+pre, code {
+    word-wrap: break-word;
+    white-space: pre-wrap;  /* respect whitespace but also wrap text */
+}
+
+
+main {
+    flex: 1; /* This will make the canvas take up the remaining width of the container */
+}

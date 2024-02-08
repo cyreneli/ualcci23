@@ -1,0 +1,39 @@
+html, body {
+ margin: 0;
+ padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.button-off {
+  background-color: #ffffff; /* 白色背景 */
+  color: rgb(0, 0, 0); /* 黑色文字 */
+  border: 5px solid #000000; /* 设置边框为2px宽的黑色实线 */
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 100px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+/* 按钮被激活时的样式 */
+.button-on {
+  background-color: #000000; /* 绿色背景 */
+  color: white; /* 白色文字 */
+  border: 5px solid #000000;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 100px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s;
+}

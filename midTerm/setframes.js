@@ -1,8 +1,8 @@
 
 let frames1 = []; // array
-let currentFrame1 = 0; //
-const totalFrames1 = 14; //the number of elements in an array
-let animationPlaying1 = false; //which used to control only loop once
+let currentFrame1 = 0; // 当前帧
+const totalFrames1 = 14; // 1帧
+let animationPlaying1 = false; 
 
 let frames2 = []; 
 let currentFrame2 = 0; 

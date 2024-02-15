@@ -1,8 +1,11 @@
+let stage = 1;
+
 function play1(){
 	if (animationPlaying1 ) {
 		image(frames1[currentFrame1], 0, 0, width, height);
 		currentFrame1++;
 	
+		// 当达到最后一帧时，停止动画
 		if (currentFrame1 >= totalFrames1) {
 		  animationPlaying1 = false; 
 		  currentFrame1 = totalFrames1 - 1; 
@@ -72,4 +75,9 @@ function play1(){
 		}
 		
 				
-	
+		function mousePressed() {
+			stage++;
+			if (stage > 6) {
+				stage = 6; 
+			  }
+			}

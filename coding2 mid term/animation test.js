@@ -7,8 +7,6 @@ function setup() {
   frameRate(8); 
   }
   
-
-
 function draw() {
 
   switch (stage) {

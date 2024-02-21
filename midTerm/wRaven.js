@@ -20,7 +20,6 @@ class wRaven{
         this.blinkTimer = 0;
         
         this.isFly = 0;
-       
       }
       
       show(){ 

@@ -1,22 +1,29 @@
 let stage = 1;
-let particle;
+//let particle;
 let particles = [];
-let positions = [
-  { x: 100, y: 100 }, // 位置 1
-  { x: 300, y: 100 }, // 位置 2
-  { x: 500, y: 100 }  // 位置 3
-];
+let points = [];
+let particle;
 
 function setup() {
   createCanvas(640, 360);
-  for (let i = 0; i < 100; i++) {
-    let pos = positions[0]; // 假设positions数组已经定义
-    particles.push(new Particle(pos.x, pos.y, pos.x, pos.y));
+  points.push(createVector(100, 100));
+  points.push(createVector(540, 100));
+  points.push(createVector(540, 260));
+  points.push(createVector(100, 260));
+
+  for (let i = 0; i < 50; i++) {
+    particle = new Particle(200, 200,points); 
+    particles.push(particle);
   }
 }
 
 function draw() {
   background(255);
+  stroke(0);
+  strokeWeight(8);
+  for (let p of points) {
+    point(p.x, p.y);
+  }
 
 switch(stage){
   case 1 :
@@ -27,10 +34,7 @@ switch(stage){
 
   // Iterate through particles backward to remove dead ones
 
-
-
-
-  }
+ }
 }
 
 function mousePressed(){

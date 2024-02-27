@@ -6,3 +6,129 @@ html, body {
 canvas {
   display: block;
 }
+
+#button1 {
+  background-color: #f5f4f4; /* Green */
+  border: none;
+  color: rgb(143, 143, 143);
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px #999;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+#button1:hover {
+  background-color: #000000
+}
+
+#button1:active {
+  background-color: #000000;
+  box-shadow: 0 1px #f1f1f1;
+  transform: translateY(1px);
+}
+
+#button2 {
+  background-color: #f5f4f4; /* Green */
+  border: none;
+  color: rgb(143, 143, 143);
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px #999;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+#button2:hover {
+  background-color: #000000
+}
+
+#button2:active {
+  background-color: #000000;
+  box-shadow: 0 1px #f1f1f1;
+  transform: translateY(1px);
+}
+
+#button3 {
+  background-color: #f5f4f4; /* Green */
+  border: none;
+  color: rgb(143, 143, 143);
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px #999;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+#button3:hover {
+  background-color: #000000
+}
+
+#button3:active {
+  background-color: #000000;
+  box-shadow: 0 1px #f1f1f1;
+  transform: translateY(1px);
+}
+
+#button4 {
+  background-color: #f5f4f4; /* Green */
+  border: none;
+  color: rgb(143, 143, 143);
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  /* box-shadow: 0 2px #999; */
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+/* #button4:hover {
+  background-color: #000000
+}
+
+#button4:active {
+  background-color: #000000;
+  box-shadow: 0 1px #f1f1f1;
+  transform: translateY(1px);
+} */
+
+
+
+
+
+#button1 {
+  position: absolute;
+  top: 153px;
+  left: 125px;
+}
+
+#button2 {
+  position: absolute;
+  top: 323px;
+  left: 125px;
+}
+
+#button3 {
+  position: absolute;
+  top: 236px;
+  left: 340px;
+}
+
+#button4 {
+  position: absolute;
+  top: 276px;
+  left: 500px;
+}
+
+
